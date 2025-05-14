@@ -23,24 +23,9 @@ hide_streamlit_style = """
             footer {visibility: hidden;}
             </style>
             """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-BASEDIR = 'FinalProject/App/'
 
-#> Header <#
-st.title(" :chart_with_upwards_trend: PortFolio replication")
-st.write(
-"""This is a tool to explore your portfolio replication options using
-Futures available on the market. \n"""
-)
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-# Header
-st.title(" :chart_with_upwards_trend: PortFolio replication")
-st.write(
-"""This is a tool to explore your portfolio replication options using
-Futures available on the market. \n"""
-)
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 BASEDIR = 'FinalProject/App/'
