@@ -46,7 +46,7 @@ def main():
             - **Monster Index 2**: Another custom index that is a linear combination of the above indices with weights [0.05, 0.4, 0.3, 0.25], offering a different diversified investment approach.
         """)
         st.write("Below is the plot showing the returns of the selected indices over time.")
-        st.image("indice_returns.png")
+        st.image("Logo.png")
 
     # Espandi l'elenco dei futures
     with st.expander("List of Futures"):
